@@ -4,10 +4,10 @@
     state: present
 
 - name: pip install docker-py
-  pip3:
-    name:
-      - docker
-      - docker-compose
+  pip:
+    name: docker
+  pip:
+    name: docker-compose
 
 - name: run container
   docker_container:
