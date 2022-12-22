@@ -4,7 +4,7 @@
     state: present
 
 - name: pip install docker-py
-  pip:
+  pip3:
     name:
       - docker
       - docker-compose
