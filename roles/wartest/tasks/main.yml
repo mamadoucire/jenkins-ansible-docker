@@ -6,7 +6,8 @@
 - name: pip install docker-py
   pip:
     name: docker
-- neme: autre
+    
+- name: autre
   pip:
     name: docker-compose
 
